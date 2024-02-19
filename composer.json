@@ -1,16 +1,16 @@
 {
-  "name": "coreproc/laravel-minio-media-library-provider",
+  "name": "ravensborn/laravel-minio-media-library-provider",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Coreproc\\LaravelMinioMediaLibraryProvider\\": "src/"
+      "Ravensborn\\LaravelMinioMediaLibraryProvider\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Coreproc\\LaravelMinioMediaLibraryProvider\\MinioServiceProvider"
+        "Ravensborn\\LaravelMinioMediaLibraryProvider\\MinioServiceProvider"
       ]
     }
   },
